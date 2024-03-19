@@ -1228,3 +1228,36 @@ form .button-area {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+/* CSS for conference section */
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content:space-evenly;
+  background-color: blanchedalmond; /* Distribute items evenly along the main axis */
+}
+
+.conference-card {
+  width: 25%; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.conference-card img {
+  width: 100%;
+  height: auto;
+}
+
+.conference-info {
+  padding: 40px;
+}
+
+/* Additional styling for conference info */
+.conference-info h3 {
+  margin-top: 0;
+}
+
+.conference-info p {
+  margin: 10px 0;
+}
