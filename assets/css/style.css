@@ -212,7 +212,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin-top: 5rem;
   margin-left: 6rem;
@@ -329,7 +329,7 @@ header .navbar ul li a:hover {
 /* social icons end */
 
 /* hero media queries starts*/
-@media (max-width: 450px) {
+@media (max-width: 350px) {
   .home .btn {
     margin: 4rem 0;
   }
@@ -366,7 +366,7 @@ header .navbar ul li a:hover {
 }
 .about .row .image img {
   margin: 1rem;
-  width: 100%;
+  width: 80%;
   height: 400px;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
