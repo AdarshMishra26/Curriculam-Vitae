@@ -60,18 +60,18 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Adarsh Mishra";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            $("#favicon").attr("href", "assets/images/adarsh.png");
         }
         else {
-            document.title = "Portfolio | Adsrh Mishra";
-            $("#favicon").attr("href", "assets/images/favicon.jpg");
+            document.title = "Portfolio | Adarsh Mishra";
+            $("#favicon").attr("href", "assets/images/profile1.jpg");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "Full Stack Web Development"],
+    strings: ["frontend development", "backend development",  "Full Stack Web Development"],
     loop: true,
     typeSpeed: 60,
     backSpeed: 30,
